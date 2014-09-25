@@ -7,7 +7,7 @@ This userscript adds a button to edit pages on Stack Exchange sites that fixes m
 
 ## Usage
 
-Click [here](https://photos-3.dropbox.com/t/0/AADLNho-ZKYJbQBobIWnCs0WzmDRZrKctzOcFam3r5Cw_Q/12/56017856/jpeg/1024x768/3/1411675200/0/2/SOEdit.gif/oAM3WqbLbrU2iG_IlTwyOn-xTMLSJmuH5Ke3o-sc1ZM) for example usage.
+Click [here](https://dl.dropboxusercontent.com/u/56017856/SOEdit.gif) for example usage.
 
 ## Known issues
 
