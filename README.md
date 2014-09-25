@@ -5,9 +5,9 @@ Stack Exchange Editor Toolkit
 
 This userscript adds a button to edit pages on Stack Exchange sites that fixes most common grammatical and usage errors with a click and automatically composes an editing summary based on the changes made.
 
-# Usage
+## Usage
 
-![Example Usage](https://photos-3.dropbox.com/t/0/AADLNho-ZKYJbQBobIWnCs0WzmDRZrKctzOcFam3r5Cw_Q/12/56017856/jpeg/1024x768/3/1411675200/0/2/SOEdit.gif/oAM3WqbLbrU2iG_IlTwyOn-xTMLSJmuH5Ke3o-sc1ZM)
+Click [here](https://photos-3.dropbox.com/t/0/AADLNho-ZKYJbQBobIWnCs0WzmDRZrKctzOcFam3r5Cw_Q/12/56017856/jpeg/1024x768/3/1411675200/0/2/SOEdit.gif/oAM3WqbLbrU2iG_IlTwyOn-xTMLSJmuH5Ke3o-sc1ZM) for example usage.
 
 ## Known issues
 
