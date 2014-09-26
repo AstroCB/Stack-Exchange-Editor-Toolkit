@@ -9,6 +9,18 @@ This userscript adds a button to edit pages on Stack Exchange sites that fixes m
 
 ![Example Usage](https://dl.dropboxusercontent.com/u/56017856/SOEdit.gif)
 
+## Expandability
+
+The script can be easily expanded by adding rules to the `edits` dictionary with the format given below:
+
+    anArbitraryName: {
+        expr: /aRegularExpressionForMatching/,
+        replacement: "What to replace it with (may include captured text like $1)",
+        reason: "an unpunctuated reason starting with a lowercase letter that will be formatted automatically and inserted into the edit summary"
+    },
+    
+    If you fix any of my rules or come up with new ones, feel free to make a pull request.
+
 ## Known issues
 
  - Changes `i` in code to I (fix in progress)
