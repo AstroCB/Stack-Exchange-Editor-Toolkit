@@ -1,6 +1,8 @@
 Stack Exchange Editor Toolkit
 =============================
 
+[View on Stack Apps](http://stackapps.com/questions/4899/stack-exchange-editor-toolkit)
+
 ## About
 
 This userscript adds a button to edit pages on Stack Exchange sites that fixes most common grammatical and usage errors with a click and automatically composes an editing summary based on the changes made.
