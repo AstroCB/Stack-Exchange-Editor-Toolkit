@@ -46,4 +46,4 @@ The script can be easily expanded by adding rules to the `edits` dictionary with
     
 If you fix any of my rules or come up with new ones, feel free to [make a pull request](https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/pulls).
 
-If you notice any odd behavior of the script, please [report an issue](https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/issues/new) (this may seem obvious, but odd behavior may not seem like a "bug" in the traditional sense).
+If you notice any odd behavior of the script, please [report an issue](https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/issues/new) (this may seem obvious, but odd behavior might not seem like a "bug" in the traditional sense).
