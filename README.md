@@ -22,3 +22,27 @@ The script can be easily expanded by adding rules to the `edits` dictionary with
 If you fix any of my rules or come up with new ones, feel free to [make a pull request](https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/pulls).
 
 If you notice any odd behavior of the script, please [report an issue](https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/issues/new) (this may seem obvious, but odd behavior may not seem like a "bug" in a traditional sense).
+
+### Rules
+
+The rules included in the standard script are as follows:
+
+ - Uppercases lowercase "i"s in posts
+ - Corrects to proper spelling/capitalization of "Stack Overflow" and "Stack Exchange" in order to fit the legal naming requirements
+ - Expands "SO" and "SE" to "Stack Overflow" and "Stack Exchange," respectively
+ - Corrects to proper spelling/capitalization of...
+  - JavaScript
+  - JSFiddle
+  - jQuery
+  - HTML
+  - CSS
+  - JSON
+  - AJAX
+  - AngularJS
+  - PHP
+  - Upvote/Downvote
+ - Capitalizes the first letter of new lines
+ - Removes common greetings
+ - Removes "thanks" and similar phrases
+ - Removes "Edit:" and similar modifiers
+ - Replaces the now-banned mysite.domain with example.domain
