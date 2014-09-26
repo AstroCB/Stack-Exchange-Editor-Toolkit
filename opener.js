@@ -1,8 +1,8 @@
-var win;
-
 function editPage(url){
-  win = window.open(url);
+  var win = window.open(url);
+  win.focus();
   win.onload = function(){
+    alert("here");
     document.getElementsByClassName("edit-post")[0].click();
     win.setTimeout(function(){
       document.getElementById("fix").click();
