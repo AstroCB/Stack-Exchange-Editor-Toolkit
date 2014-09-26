@@ -19,7 +19,7 @@ The script can be easily expanded by adding rules to the `edits` dictionary with
         reason: "an unpunctuated reason starting with a lowercase letter that will be formatted automatically and inserted into the edit summary"
     },
     
-    If you fix any of my rules or come up with new ones, feel free to make a pull request.
+If you fix any of my rules or come up with new ones, feel free to make a pull request.
 
 ## Known issues
 
