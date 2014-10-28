@@ -340,9 +340,11 @@ $(window).load(function () {
         var currentPos = document.body.scrollTop;
         if (privileges) {
             $(".edit-comment").val(summary);
+            $(".wmd-input").focus();
             $(".edit-comment").focus();
         } else {
             $("#edit-comment").val(summary);
+            $("#wmd-input").focus();
             $("#edit-comment").focus();
         }
         window.scrollTo(0, currentPos);
