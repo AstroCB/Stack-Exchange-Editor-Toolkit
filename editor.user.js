@@ -37,9 +37,13 @@
 // ==/UserScript==
 
 $(window).load(function () {
-     
-    //select button bar 
-    var buttonBar = $('#wmd-button-bar-26600391');
+    
+    //select button bar
+    var URL = window.location.href;
+    var questionNum = URL.match(/\d/g);
+    questionNum = questionNum.join("");
+    
+    var buttonBar = $('#wmd-button-bar-' + questionNum);
     var barReady = false;
     var editsMade = false;
     var editCount = 0;
@@ -52,11 +56,9 @@ $(window).load(function () {
             
             //run asynchronously (important)
             setTimeout(function () {
-                
-                var redoButton = $('#wmd-redo-button-26600391');
-                
+                var redoButton = $('#wmd-redo-button-' + questionNum);
                 var privileges = true;
-                var spacerHTML = '<li class="wmd-spacer wmd-spacer3" id="wmd-spacer3-26600391" style="left: 400px !important;"></li>';
+                var spacerHTML = '<li class="wmd-spacer wmd-spacer3" id="wmd-spacer3-' + questionNum + '" style="left: 400px !important;"></li>';
                 
                 //what asshole at Stack Exchange didn't understand how to use float:left; margin-right:10px;???
                 var buttonHTML = '<div id="ToolkitButtonWrapper"><button class="wmd-button" id="ToolkitFix"></button><div id="ToolkitInfo"></div></div>';
