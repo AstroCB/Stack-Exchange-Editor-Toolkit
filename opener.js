@@ -1,8 +1,7 @@
 function editPage(url){
   var win = window.open(url);
   win.focus();
-  win.onload = function(){
-    alert("here");
+  win.addEventListener("load", function(){
     document.getElementsByClassName("edit-post")[0].click();
     win.setTimeout(function(){
       document.getElementById("fix").click();
@@ -10,5 +9,5 @@ function editPage(url){
     win.setTimeout(function(){
       document.getElementsByTagName("input")[14].click();
     }, 1500);
-  }
+  });
 }
