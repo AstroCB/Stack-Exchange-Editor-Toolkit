@@ -168,7 +168,7 @@ $(window).load(function () {
         console.log("editing...");
         
         //define function variables
-        var box = $(".wmd-input");
+        var box = $("#wmd-input-" + questionNum);
         var title = $(".ask-title-field");
         var reasons = [];
         var numReasons = 0;
@@ -298,6 +298,7 @@ $(window).load(function () {
             if (edits.hasOwnProperty(j)) {
                 
                 //check body
+                console.log("Checking body...");
                 var fix = fixIt(box.val(), edits[j].expr, edits[j].replacement, edits[j].reason);
                 if (fix) {
                     reasons[numReasons] = fix.reason;
@@ -307,13 +308,16 @@ $(window).load(function () {
                 }
                 
                 //check title
-                fix = fixIt(title.val(), edits[j].expr, edits[j].replacement, edits[j].reason);
-                if (fix) {
-                    title.val(fix.fixed);
-                    if (!edits[j].fixed) {
-                        reasons[numReasons] = fix.reason;
-                        numReasons++;
-                        edits[j].fixed = true;
+                if (typeof title.val() != 'undefined'){
+                    console.log("Checking title...");
+                    fix = fixIt(title.val(), edits[j].expr, edits[j].replacement, edits[j].reason);
+                    if (fix) {
+                        title.val(fix.fixed);
+                        if (!edits[j].fixed) {
+                            reasons[numReasons] = fix.reason;
+                            numReasons++;
+                            edits[j].fixed = true;
+                        }
                     }
                 }
             }
@@ -340,11 +344,11 @@ $(window).load(function () {
         var currentPos = document.body.scrollTop;
         if (privileges) {
             $(".edit-comment").val(summary);
-            $(".wmd-input").focus();
+            $("#wmd-input-" + questionNum).focus();
             $(".edit-comment").focus();
         } else {
             $("#edit-comment").val(summary);
-            $("#wmd-input").focus();
+            $("#wmd-input-" + questionNum).focus();
             $("#edit-comment").focus();
         }
         window.scrollTo(0, currentPos);
