@@ -1,6 +1,8 @@
 Stack Exchange Editor Toolkit
 =============================
 
+![](http://i.imgur.com/f9E7MXe.jpg)
+
 [View on Stack Apps](http://stackapps.com/questions/4899/stack-exchange-editor-toolkit)
 
 ## About
