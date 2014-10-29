@@ -80,15 +80,17 @@ $(window).load(function () {
                 //style button
                 buttonWrapper.css({
                     'position': 'relative',
-                    'left': '430px',
+                    'left': '435px',
                 });
                 buttonFix.css({
                     'position' : 'static',
                     'float': 'left',
                     'border-width': '0px',
                     'background-color': 'white',
-                    'background-image': 'url("http://i.imgur.com/aXm256k.png")',
-                    'background-size': '100%',
+                    'background-image': 'url("http://i.imgur.com/cLCZ21L.png"), url("http://i.imgur.com/kyE5p6d.png")',
+                    'background-size': '100% 100%',
+                    'width' : '18px',
+                    'height' : '18px',
                     'outline': 'none'
                 });
                 buttonInfo.css({
@@ -97,7 +99,15 @@ $(window).load(function () {
                     'margin-left': '5px',
                     'font-size' : '12px',
                     'color' : '#424242',
-                    'line-height' : '21px'
+                    'line-height' : '19px'
+                });
+                
+                buttonFix.hover(function(){
+                    toolkitGlobals.buttonInfo.text('Fix the content!');
+                    buttonFix.css({'background-image':'url("http://i.imgur.com/kyE5p6d.png")'});
+                }, function(){
+                    toolkitGlobals.buttonInfo.text('');
+                    buttonFix.css({'background-image':'url("http://i.imgur.com/cLCZ21L.png")'});
                 });
                 
                 //add event listener
@@ -169,6 +179,7 @@ $(window).load(function () {
         
         //define function variables
         var box = $("#wmd-input-" + questionNum);
+        console.log(box.val());
         var title = $(".ask-title-field");
         var reasons = [];
         var numReasons = 0;
@@ -310,6 +321,9 @@ $(window).load(function () {
                 //check title
                 if (typeof title.val() != 'undefined'){
                     console.log("Checking title...");
+                    
+                    //remove code blocks from check
+                    
                     fix = fixIt(title.val(), edits[j].expr, edits[j].replacement, edits[j].reason);
                     if (fix) {
                         title.val(fix.fixed);
