@@ -3,7 +3,7 @@ Stack Exchange Editor Toolkit
 
 [View on Stack Apps](http://stackapps.com/questions/4899/stack-exchange-editor-toolkit)
 
-![Stack Exchange Editor's Toolkit Logo](http://i.imgur.com/f9E7MXe.jpg)
+![Stack Exchange Editor's Toolkit Logo](http://i.imgur.com/blxl3ei.jpg)
 
 ## About
 
