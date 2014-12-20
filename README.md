@@ -30,12 +30,16 @@ The rules included in the standard script are as follows:
   - AJAX
   - AngularJS
   - PHP
+  - Android
+  - Oracle
+  - Windows
   - Upvote/Downvote
  - Capitalizes the first letter of new lines
  - Removes common greetings
  - Removes "thanks" and similar phrases
  - Removes "Edit:" and similar modifiers
  - Replaces the now-banned mysite.domain with example.domain
+ - Fixes improperly used contractions
 
 
 ## Expandability
