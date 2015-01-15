@@ -33,6 +33,7 @@ The rules included in the standard script are as follows:
   - Android
   - Oracle
   - Windows
+  - SQL/SQLite
   - Upvote/Downvote
  - Capitalizes the first letter of new lines
  - Removes common greetings
