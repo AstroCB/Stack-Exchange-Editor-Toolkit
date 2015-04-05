@@ -33,15 +33,21 @@ The rules included in the standard script are as follows:
   - Android
   - Oracle
   - Windows
-  - SQL/SQLite
+  - SQL(ite)
   - Upvote/Downvote
+  - iOS
+  - C/C#/C++
+  - Java
+  - Ubuntu
+  - Linux
+  - WordPress
  - Capitalizes the first letter of new lines
  - Removes common greetings
  - Removes "thanks" and similar phrases
  - Removes "Edit:" and similar modifiers
  - Replaces the now-banned mysite.domain with example.domain
  - Fixes improperly used contractions
-
+ - Corrects all-caps titles
 
 ## Expandability
 
@@ -52,7 +58,7 @@ The script can be easily expanded by adding rules to the `edits` dictionary with
         replacement: "What to replace it with (may include captured text like $1)",
         reason: "an unpunctuated reason starting with a lowercase letter that will be formatted automatically and inserted into the edit summary"
     },
-    
+
 If you fix any of my rules or come up with new ones, feel free to [make a pull request](https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/pulls).
 
 If you notice any odd behavior of the script, please [report an issue](https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/issues/new) (this may seem obvious, but odd behavior might not seem like a "bug" in the traditional sense).
