@@ -41,6 +41,9 @@ The rules included in the standard script are as follows:
   - Ubuntu
   - Linux
   - WordPress
+  - Google
+  - Apache
+  - MySQL
  - Capitalizes the first letter of new lines
  - Removes common greetings
  - Removes "thanks" and similar phrases
