@@ -706,7 +706,7 @@ var main = function() {
                 if (App.globals.lastSelectedElement) {
                     App.globals.lastSelectedElement.focus();
                 } else {
-                    window.scrollTo(0);
+                    window.scrollTo(0,0);
                 }
             }, 0);
         }
