@@ -1,0 +1,27 @@
+{
+  "name": "stack-exchange-editor-toolkit",
+  "version": "1.0.0",
+  "description": "Stack Exchange Editor Toolkit =============================",
+  "main": "editor.user.js",
+  "scripts": {
+    "test": "mocha-phantomjs test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwinkler/Stack-Exchange-Editor-Toolkit.git"
+  },
+  "private": true,
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwinkler/Stack-Exchange-Editor-Toolkit/issues"
+  },
+  "homepage": "https://github.com/nwinkler/Stack-Exchange-Editor-Toolkit#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "jquery": "^2.1.4",
+    "mocha": "^2.2.5",
+    "mocha-phantomjs": "^3.6.0",
+    "phantomjs": "1.9.1 - 1.9.7-15"
+  }
+}
