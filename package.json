@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nwinkler/Stack-Exchange-Editor-Toolkit.git"
+    "url": "git+https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit.git"
   },
   "private": true,
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nwinkler/Stack-Exchange-Editor-Toolkit/issues"
+    "url": "https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/issues"
   },
-  "homepage": "https://github.com/nwinkler/Stack-Exchange-Editor-Toolkit#readme",
+  "homepage": "https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit#readme",
   "devDependencies": {
     "chai": "^3.2.0",
     "jquery": "^2.1.4",
