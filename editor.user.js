@@ -131,12 +131,12 @@ var main = function() {
             reason: "'SE' expansion"
         },
         javascript: {
-            expr: /(^|\s)[Jj]ava\s*script(.|$)/gm,
+            expr: /(^|\s)[Jj]ava\s*[Ss]cript(.|$)/gm,
             replacement: "$1JavaScript$2",
             reason: "'JavaScript' is the proper capitalization"
         },
         jsfiddle: {
-            expr: /(^|\s)[Jj][Ss]\s+[Ff]iddle(.|$)/gm,
+            expr: /(^|\s)[Jj][Ss]\s*[Ff]iddle(.|$)/gm,
             replacement: "$1JSFiddle$2",
             reason: "'JSFiddle' is the currently accepted capitalization"
         },
@@ -151,22 +151,22 @@ var main = function() {
             reason: "'jQuery' is the proper capitalization"
         },
         html: {
-            expr: /(^|\s)[Hh]tml(5|\s|$)/gm,
-            replacement: "$1HTML$2",
+            expr: /(^|\s)[Hh]tml([5]?)\b(\S|)(?!\S)/gm,
+            replacement: "$1HTML$2$3",
             reason: "HTML stands for HyperText Markup Language"
         },
         css: {
-            expr: /(^|\s)[Cc]ss(\s|$)/gm,
+            expr: /(^|\s)[Cc]ss\b(\S|)(?!\S)/gm,
             replacement: "$1CSS$2",
             reason: "CSS stands for Cascading Style Sheets"
         },
         json: {
-            expr: /(^|\s)[Jj]son(\s|$)/gm,
+            expr: /(^|\s)[Jj]son\b(\S|)(?!\S)/gm,
             replacement: "$1JSON$2",
             reason: "JSON stands for JavaScript Object Notation"
         },
         ajax: {
-            expr: /(^|\s)ajax(\s|$)/gm,
+            expr: /(^|\s)ajax\b(\S|)(?!\S)/gm,
             replacement: "$1AJAX$2",
             reason: "AJAX stands for Asynchronous JavaScript and XML"
         },
@@ -186,7 +186,7 @@ var main = function() {
             reason: "punctuation & spacing"
         },
         php: {
-            expr: /(^|\s)[Pp]hp(\s|$)/gm,
+            expr: /(^|\s)[Pp]hp\b(\S|)(?!\S)/gm,
             replacement: "$1PHP$2",
             reason: "PHP stands for PHP: Hypertext Preprocessor"
         },
@@ -216,42 +216,52 @@ var main = function() {
             reason: "C$2 is the proper capitalization"
         },
         java: {
-            expr: /(^|\s)java(\s|$)/gmi,
+            expr: /(^|\s)java\b(\S|)(?!\S)/gmi,
             replacement: "$1Java$2",
             reason: "Java should be capitalized"
         },
         sql: {
-            expr: /(^|\s)[Ss]ql(\s|$)/gm,
+            expr: /(^|\s)[Ss]ql\b(\S|)(?!\S)/gm,
             replacement: "$1SQL$2",
             reason: "SQL is the proper capitalization"
         },
         sqlite: {
-            expr: /(^|\s)[Ss]qlite([0-9]*)(\s|$)/gm,
+            expr: /(^|\s)[Ss]qlite([0-9]*)\b(\S|)(?!\S)/gm,
             replacement: "$1SQLite$2$3",
             reason: "SQLite is the proper capitalization"
         },
         android: {
-            expr: /(^|\s)android(\s|$)/gmi,
+            expr: /(^|\s)android\b(\S|)(?!\S)/gmi,
             replacement: "$1Android$2",
-            reason: "Android should be capitalizaed"
+            reason: "Android should be capitalized"
         },
         oracle: {
-            expr: /(^|\s)oracle(\s|$)/gmi,
+            expr: /(^|\s)oracle\b(\S|)(?!\S)/gmi,
             replacement: "$1Oracle$2",
             reason: "Oracle should be capitalized"
         },
         windows: {
-            expr: /(win(?:\ ?)(\sxp|\svista|\s[0-9]+)|window(?:s))(\s|$)/igm,
+            expr: /(win|windows(?:\ ?)(\s[0-9]+))\b(\S|)(?!\S)/igm,
             replacement: "Windows$2$3",
             reason: "Windows should be capitalized"
         },
+        windowsXP: {
+            expr: /(win|windows(?:\ ?)(\sxp))\b(\S|)(?!\S)/igm,
+            replacement: "Windows XP$3",
+            reason: "Windows XP should be capitalized"
+        },
+        windowsVista: {
+            expr: /(win|windows(?:\ ?)(\svista))\b(\S|)(?!\S)/igm,
+            replacement: "Windows Vista$3",
+            reason: "Windows Vista should be capitalized"
+        },
         ubuntu: {
-            expr: /(ubunto|ubunut|ubunutu|ubunu|ubntu|ubutnu|ubanto[o?]|unbuntu|ubunt|ubutu)(\s|$)/igm,
+            expr: /(ubunto|ubunut|ubunutu|ubunu|ubntu|ubutnu|ubanto[o]+|unbuntu|ubunt|ubutu)\b(\S|)(?!\S)/igm,
             replacement: "Ubuntu$2",
             reason: "corrected Ubuntu spelling"
         },
         linux: {
-            expr: /(linux)(\s|$)/igm,
+            expr: /(linux)\b(\S|)(?!\S)/igm,
             replacement: "Linux$2",
             reason: "Linux should be capitalized"
         },
@@ -261,8 +271,13 @@ var main = function() {
             reason: "English contractions use apostrophes"
         },
         ios: {
-            expr: /\b(?:ios|iOs|ioS|IOS|Ios|IoS|ioS)(\d|\s)/gm,
-            replacement: "iOS $2",
+            expr: /\b(?:ios|iOs|ioS|IOS|Ios|IoS|ioS)\b(\S|)(?!\S)/gm,
+            replacement: "iOS$1",
+            reason: "the proper usage is 'iOS'"
+        },
+        iosnum: {
+            expr: /\b(?:ios|iOs|ioS|IOS|Ios|IoS|ioS)([0-9]?)\b(\S|)(?!\S)/gm,
+            replacement: "iOS $1$2",
             reason: "the proper usage is 'iOS' followed by a space and the version number"
         },
         caps: {
@@ -276,27 +291,27 @@ var main = function() {
             reason: "'WordPress' is the proper capitalization"
         },
         google: {
-          expr:  /(google)(\s|$)/igm,
+          expr:  /(google)\b(\S|)(?!\S)/igm,
           replacement: "Google$2",
           reason: "Google is the proper capitalization"
         },
         mysql: {
-          expr:  /(mysql)(\s|$)/igm,
+          expr:  /(mysql)\b(\S|)(?!\S)/igm,
           replacement: "MySQL$2",
           reason: "MySQL is the proper capitalization"
         },
         apache: {
-          expr:  /(apache)(\s|$)/igm,
+          expr:  /(apache)\b(\S|)(?!\S)/igm,
           replacement: "Apache$2",
           reason: "Apache is the proper capitalization"
         },
         git: {
-          expr:  /(^|\s)(git|GIT)(\s|$)/gm,
+          expr:  /(^|\s)(git|GIT)\b(\S|)(?!\S)/gm,
           replacement: "$1Git$3",
           reason: "Git is the proper capitalization"
         },
         harddisk: {
-          expr:  /(hdd|harddisk)(\s|$)/igm,
+          expr:  /(hdd|harddisk)\b(\S|)(?!\S)/igm,
           replacement: "hard disk$2",
           reason: "Hard disk is the proper capitalization"
         },
@@ -319,6 +334,9 @@ var main = function() {
 
                 // Later, this will store what is removed for the first case
                 var phrase;
+
+                // Store the original input text
+                var originalInput = input;
 
                 // Then, perform the edits using replace()
                 // What follows is a series of exceptions, which I will explain below; I perform special actions by overriding replace()
@@ -379,11 +397,16 @@ var main = function() {
                     input = input.replace(expression, replacement);
                 }
 
-                // Return a dictionary with the reasoning for the fix and what is edited (used later to prevent duplicates in the edit summary)
-                return {
-                    reason: reasoning,
-                    fixed: input
-                };
+                // Check whether anything was changed
+                if (input === originalInput) {
+                    return null;
+                } else {
+                    // Return a dictionary with the reasoning for the fix and what is edited (used later to prevent duplicates in the edit summary)
+                    return {
+                        reason: reasoning,
+                        fixed: input
+                    };
+                }
             } else {
                 // If nothing needs to be fixed, return null
                 return null;
@@ -755,6 +778,11 @@ var main = function() {
             App.init(false);
         }
     }, 1000);
+
+    // Only set when running tests
+    if (window.mocha) {
+      window.App = App;
+    }
 };
 
 // Inject the main script
