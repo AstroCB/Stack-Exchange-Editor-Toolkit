@@ -36,7 +36,6 @@ The rules included in the standard script are as follows:
   - Oracle
   - Windows
   - SQL(ite)
-  - Upvote/Downvote
   - iOS
   - C/C#/C++
   - Java

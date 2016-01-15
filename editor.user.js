@@ -200,11 +200,6 @@ var main = function() {
             replacement: "",
             reason: "Stack Exchange has an advanced revision history system: 'Edit' or 'Update' is unnecessary"
         },
-        voting: {
-            expr: /([Dd]own|[Uu]p)[\s*\-]vot/g,
-            replacement: "$1vote",
-            reason: "the proper spelling (despite the tag name) is '$1vote' (one word)"
-        },
         mysite: {
             expr: /mysite\./g,
             replacement: "example.",
@@ -313,7 +308,7 @@ var main = function() {
         harddisk: {
           expr:  /(hdd|harddisk)\b(\S|)(?!\S)/igm,
           replacement: "hard disk$2",
-          reason: "Hard disk is the proper capitalization"
+          reason: "Hard disk is the proper usage"
         },
         github: {
           expr:  /\b([gG]ithub|GITHUB)\b(\S|)(?!\S)/gm,
@@ -353,15 +348,6 @@ var main = function() {
                     // This is an interesting tidbit: if you want to make the edit summaries dynamic, you can keep track of a match that you receive
                     // from overriding the replace() function and then use that in the summary
                     reasoning = reasoning.replace("$1", phrase);
-
-                    // This allows me to combine the upvote and downvote replacement schemes into one
-                } else if (replacement == "$1vote") {
-                    input = input.replace(expression, function(data, match1) {
-                        phrase = match1;
-                        return phrase + "vot";
-                    });
-                    reasoning = reasoning.replace("$1", phrase.toLowerCase());
-
                     // Fix all caps
                 } else if (reasoning === "no need to yell") {
                     input = input.replace(expression, function(data, match1) {
