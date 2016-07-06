@@ -99,7 +99,7 @@ var main = function() {
     // Assign modules here
     App.globals.pipeMods = {};
 
-    // Define order in which mods affect  here
+    // Define order in which mods affect here
     App.globals.order = ["omit", "edit", "replace"];
 
 
@@ -108,7 +108,7 @@ var main = function() {
         i: {
             expr: /(^|\s|\()i(\s|,|\.|!|\?|;|\/|\)|'|$)/gm,
             replacement: "$1I$2",
-            reason: "in English, the pronoun 'I' is capitalized"
+            reason: "the pronoun 'I' should be capitalized"
         },
         so: {
             expr: /(^|\s)[Ss]tack\s*overflow|StackOverflow(.|$)/gm,
@@ -286,34 +286,34 @@ var main = function() {
             reason: "'WordPress' is the proper capitalization"
         },
         google: {
-          expr:  /(google)\b(\S|)(?!\S)/igm,
-          replacement: "Google$2",
-          reason: "Google is the proper capitalization"
+            expr: /(google)\b(\S|)(?!\S)/igm,
+            replacement: "Google$2",
+            reason: "Google is the proper capitalization"
         },
         mysql: {
-          expr:  /(mysql)\b(\S|)(?!\S)/igm,
-          replacement: "MySQL$2",
-          reason: "MySQL is the proper capitalization"
+            expr: /(mysql)\b(\S|)(?!\S)/igm,
+            replacement: "MySQL$2",
+            reason: "MySQL is the proper capitalization"
         },
         apache: {
-          expr:  /(apache)\b(\S|)(?!\S)/igm,
-          replacement: "Apache$2",
-          reason: "Apache is the proper capitalization"
+            expr: /(apache)\b(\S|)(?!\S)/igm,
+            replacement: "Apache$2",
+            reason: "Apache is the proper capitalization"
         },
         git: {
-          expr:  /(^|\s)(git|GIT)\b(\S|)(?!\S)/gm,
-          replacement: "$1Git$3",
-          reason: "Git is the proper capitalization"
+            expr: /(^|\s)(git|GIT)\b(\S|)(?!\S)/gm,
+            replacement: "$1Git$3",
+            reason: "Git is the proper capitalization"
         },
         harddisk: {
-          expr:  /(hdd|harddisk)\b(\S|)(?!\S)/igm,
-          replacement: "hard disk$2",
-          reason: "Hard disk is the proper usage"
+            expr: /(hdd|harddisk)\b(\S|)(?!\S)/igm,
+            replacement: "hard disk$2",
+            reason: "Hard disk is the proper usage"
         },
         github: {
-          expr:  /\b([gG]ithub|GITHUB)\b(\S|)(?!\S)/gm,
-          replacement: "GitHub$2",
-          reason: "GitHub is the proper capitalization"
+            expr: /\b([gG]ithub|GITHUB)\b(\S|)(?!\S)/gm,
+            replacement: "GitHub$2",
+            reason: "GitHub is the proper capitalization"
         }
     };
 
@@ -377,7 +377,15 @@ var main = function() {
 
                         return "iOS" + match1;
                     });
-
+                    // Check for "i.e." edge case
+                } else if (replacement === "$1I$2") {
+                    input = input.replace(expression, function(data, match1, match2) {
+                        if (match2 === "." && input.charAt(input.indexOf(data) + 3) === "e") { // Is an "i.e." case
+                            return match1 + "i" + match2;
+                        } else { // Regular "i" case
+                            return match1 + "I" + match2;
+                        }
+                    });
                     // Default: just replace it with the indicated replacement
                 } else {
                     input = input.replace(expression, replacement);
@@ -716,7 +724,7 @@ var main = function() {
                 if (App.globals.lastSelectedElement) {
                     App.globals.lastSelectedElement.focus();
                 } else {
-                    window.scrollTo(0,0);
+                    window.scrollTo(0, 0);
                 }
             }, 0);
         }
@@ -768,7 +776,7 @@ var main = function() {
 
     // Only set when running tests
     if (window.mocha) {
-      window.App = App;
+        window.App = App;
     }
 };
 
