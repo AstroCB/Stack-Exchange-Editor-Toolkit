@@ -1,5 +1,3 @@
-
-
 describe('Editor Toolkit', function () {
   var App;
 
