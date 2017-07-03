@@ -13,7 +13,7 @@ This userscript adds a button to edit pages on Stack Exchange sites that fixes m
 
 ## Usage
 
-![Example Usage](https://dl.dropboxusercontent.com/u/56017856/SOEdit.gif)
+![Example Usage](http://i.imgur.com/zmdvCm4.gif)
 
 ## Rules
 
