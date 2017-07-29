@@ -15,6 +15,11 @@ This userscript adds a button to edit pages on Stack Exchange sites that fixes m
 
 ![Example Usage](http://i.imgur.com/zmdvCm4.gif)
 
+## Installation
+First, you'll need a userscript extension for your browser. Popular options include [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/), [Tampermonkey](https://tampermonkey.net/), and [NinjaKit](https://github.com/os0x/NinjaKit) for Firefox, Chrome, and Safari respectively.
+
+Once installed, click [here](https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/raw/master/editor.user.js) and your userscript manager should prompt you to install the toolkit.
+
 ## Rules
 
 The rules included in the standard script are as follows:
