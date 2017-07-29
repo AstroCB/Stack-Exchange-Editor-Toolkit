@@ -470,29 +470,13 @@ var main = function() {
 
         // Wait for relevant dynamic content to finish loading
         App.funcs.dynamicDelay = function(callback, id, inline) {
-            if (inline) { // Inline editing
-                setTimeout(function() {
-                    App.selections.buttonBar = $('#wmd-button-bar-' + id);
-                    App.selections.buttonBar.unbind();
-                    setTimeout(function() {
-                        callback();
-                    }, 0);
-                }, 500);
-            } else { // Question page editing
-                App.selections.buttonBar = $('#wmd-button-bar-' + id);
-                // When button bar updates, dynamic DOM is ready for selection
-                App.selections.buttonBar.unbind().on('DOMSubtreeModified', function() {
-                    // Avoid running it more than once
-                    if (!App.globals.barReady) {
-                        App.globals.barReady = true;
-
-                        // Run asynchronously - this lets the bar finish updating before continuing
-                        setTimeout(function() {
-                            callback();
-                        }, 0);
-                    }
-                });
-            }
+	    setTimeout(function() {
+	        App.selections.buttonBar = $('#wmd-button-bar-' + id);
+	        App.selections.buttonBar.unbind();
+	        setTimeout(function() {
+		    callback();
+	        }, 0);
+	    }, 500);
         };
 
         // Populate or refresh DOM selections
