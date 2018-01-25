@@ -22,6 +22,6 @@
     "jquery": "^3.0.0",
     "mocha": "^2.5.3",
     "mocha-phantomjs": "^3.6.0",
-    "phantomjs": "^1.9.7-15"
+    "phantomjs": "@1.9.1 - 1.9.7-15"
   }
 }
