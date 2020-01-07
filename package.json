@@ -19,7 +19,7 @@
   "homepage": "https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "jquery": "^3.0.0",
+    "jquery": "^3.4.0",
     "mocha": "^5.2.0",
     "mocha-phantomjs": "^4.1.0",
     "phantomjs": "^1.9.20",
