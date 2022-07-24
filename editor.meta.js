@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name Stack Exchange Auto Editor
+// @name Stack Exchange Editor Toolkit
 // @author Stephen Ostermiller
 // @author Cameron Bernhardt (AstroCB)
 // @developer Jonathan Todd (jt0dd)
 // @developer sathyabhat
 // @contributor Unihedron
 // @license MIT
-// @version 1.6.0
+// @version 1.6.1
 // @namespace http://github.com/AstroCB
 // @updateURL https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/raw/master/editor.meta.js
 // @downloadURL https://github.com/AstroCB/Stack-Exchange-Editor-Toolkit/raw/master/editor.user.js
