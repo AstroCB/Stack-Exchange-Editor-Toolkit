@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name Stack Exchange Auto Editor
+// @name Stack Exchange Editor Toolkit
 // @author Stephen Ostermiller
 // @author Cameron Bernhardt (AstroCB)
 // @developer Jonathan Todd (jt0dd)
