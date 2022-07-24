@@ -1,0 +1,701 @@
+0's:0s
+1D
+1's:1s
+2D
+301's:301s
+3D
+404's:404s
+alot:a lot
+abcense,absance,absense,absentse:absence
+acceptible:acceptable
+accesable,accesible,accessable:accessible
+accomodate,acommodate:accommodate
+accomodation:accommodation
+acheive,achive:achieve
+acknowlege,aknowledge:acknowledge
+acknowledgement:acknowledgment
+acquaintence,aquaintance:acquaintance
+adquire,aquire:acquire
+aquit:acquit
+acerage,acrage:acreage
+accross:across
+ActionScript
+adress:address
+AdSense
+adultary:adultery
+advertisment:advertisement
+advices:advice
+adviseable,advizable:advisable
+AdWords
+agression:aggression
+agressive:aggressive
+AJAX
+alegiance,allegaince,allegience:allegiance
+allmost:almost
+amatuer,amature:amateur
+Angular2
+angular js,angularjs:AngularJS
+annualy,anually:annually
+Ansible
+Apache
+Apache2
+API
+api's,apis:APIs
+APK
+appaling:appalling
+aparent,aparrent,apparant,apparrent:apparent
+apparantly:apparently
+appearence:appearance
+artic:arctic
+arent:aren't
+arguement:argument
+ArrayList
+aswell:as well
+ASCII
+assasination:assassination
+assesment:assessment
+atleast:at least
+athiest,athist:atheist
+attachement:attachment
+attachements:attachments
+aweful,awfull:awful
+akward:awkward
+basicly:basically
+beatiful:beautiful
+becuase:because
+becomeing:becoming
+begining:beginning
+beleive,belive:believe
+bellweather:bellwether
+benifit:benefit
+big query,bigquery:BigQuery
+Bing
+biogrophay:biography
+bizzare:bizarre
+Blogspot
+blue host:Bluehost
+blue tooth:Bluetooth
+binded:bound
+BTW
+bouy:buoy
+bouyant:buoyant
+buisness:business
+cake php:CakePHP
+calender:calendar
+camoflage,camoflague:camouflage
+cant:can't
+Carribean:Caribbean
+Cassandra
+catagory:category
+caugt,cauhgt:caught
+cemetary:cemetery
+cent os:CentOS
+changable:changeable
+chek:check
+cheks:checks
+cheif:chief
+Cisco
+CLI
+Clojure
+Cloudflare
+CloudFront
+CMake
+CMS
+Cocos2d
+code igniter,code ignitor,codeignitor:CodeIgniter
+cold fusion:ColdFusion
+collaegue,collegue:colleague
+colum:column
+comming:coming
+comission,commision:commission
+comitted,commited:committed
+commitee:committee
+comparsion:comparison
+compell:compel
+completly:completely
+conceed:concede
+Conda
+congradulate:congratulate
+concience:conscience
+consciencious:conscientious
+concious,consious:conscious
+concensus:consensus
+contraversy:controversy
+convinient:convenient
+cooly:coolly
+Cordova
+corellation,correllation:correlation
+CORS
+couldnt:couldn't
+cPanel
+CPU
+CSS
+CSV
+curiousity:curiosity
+Cygwin
+D3
+dacquiri,daquiri:daiquiri
+datas:data
+DataFrame
+DataGridView
+DB2
+DBML
+Debian
+decieve:deceive
+definate:definite
+definately,definatly,definitly:definitely
+Delphi
+desparate:desperate
+DF1
+DHCP
+didnt:didn't
+diffrence:difference
+digital ocean:DigitalOcean
+dilema:dilemma
+dissapear:disappear
+dissapoint:disappoint
+disasterous:disastrous
+desease:disease
+devide:divide
+Django
+DLL
+DLLs
+DNS
+docker compose,docker-compose:Docker Compose
+Dockerfile
+doesnt:doesn't
+DOM
+dont:don't
+dotNET
+Dovecot
+dream host:DreamHost
+DropDownList
+drunkeness:drunkenness
+Drupal
+dumbell:dumbbell
+dynamo db:DynamoDB
+EC2
+ecma script:ECMAScript
+ecstacy:ecstasy
+Elasticsearch
+Emacs
+embarass:embarrass
+embarassed,embarrased:embarrassed
+endevour:endeavour
+English
+enterpreneur:entrepreneur
+enviroment:environment
+equiptment:equipment
+everytime:every time
+exemple:example
+excede:exceed
+Excel
+exchnage:exchange
+exilerate:exhilarate
+existance:existence
+experiance:experience
+extreem:extreme
+face book:Facebook
+familar:familiar
+facinating:fascinating
+firey:fiery
+finaly:finally
+fire base:Firebase
+fire fox:Firefox
+Firestore
+florescent,flourescent:fluorescent
+foriegn:foreign
+Fortran
+fourty:forty
+foward:forward
+free bsd:FreeBSD
+freind:friend
+FTP
+fullfil,fullfill:fulfil
+futher:further
+guage:gauge
+GCC
+GIF
+Git
+git hub:GitHub
+git lab:GitLab
+glamourous:glamorous
+go daddy:GoDaddy
+Golang
+Google
+google bot:Googlebot
+goverment:government
+Gradle
+Grails
+grammer:grammar
+graph ql:GraphQL
+gratefull,greatful:grateful
+grat:great
+garantee,garanty,garentee:guarantee
+gaurd:guard
+GUI
+guidence:guidance
+GWT
+H1
+H2
+H3
+H4
+H5
+H6
+hadnt:hadn't
+Hadoop
+happend:happened
+ha proxy,haproxy:HAProxy
+harrass:harass
+harrassment:harassment
+harddisk,hdd:hard disk
+Haskell
+hasnt:hasn't
+havent:haven't
+hed:he'd
+hes:he's
+heighth,heigth:height
+halp:help
+halping:helping
+halps:helps
+heres:here's
+Heroku
+hetzneronline:Hetzner Online
+heirarchy:hierarchy
+high charts:Highcharts
+HIPPA:HIPAA
+Homebrew
+honourary:honorary
+host gator:HostGator
+HTML
+HTML5
+HTTP
+HTTPS
+humerous,humourous:humorous
+higeine,hiygeine,hygeine,hygene,hygine:hygiene
+hipocrit:hypocrite
+I
+I'd
+I'll
+i'am:I'm
+i o,io:I/O
+ignorence:ignorance
+IIS
+immitate:imitate
+imediately,immediatly:immediately
+incidently:incidentally
+independant:independent
+indite:indict
+indispensible:indispensable
+innoculate:inoculate
+inteligence,intelligance:intelligence
+IntelliJ
+interupt:interrupt
+IONOS
+iOS
+IP
+iPad
+iPhone
+iPod
+ip's:IPs
+IPv4
+IPv6
+irresistable:irresistible
+isnt:isn't
+Jakarta
+Java
+Javadoc
+java script:JavaScript
+JBoss
+JDBC
+Jenkins
+jewelery:jewelry
+JMeter
+Joomla
+JPA
+JPEG
+JPG
+jQuery
+JS
+js fiddle:JSFiddle
+JSON
+JSP
+judgement:judgment
+JUnit
+Jupyter
+JWT
+Kafka
+Keras
+kernal:kernel
+Kivy
+knowlege:knowledge
+Kotlin
+Kubernetes
+KVM
+lable:label
+layed off:laid off
+Laravel
+LDAP
+liesure:leisure
+lenght:length
+liasion,liason:liaison
+lib gdx,libgdx:libGDX
+libary,liberry:library
+lisence:license
+lightening:lightning
+LINQ
+Linux
+liquidweb:Liquid Web
+ListView
+Lodash
+Logcat
+Logstash
+Lua
+Lucene
+LVM
+mac os:macOS
+Magento
+maintainance,maintnance:maintenance
+maria db:MariaDB
+marshmellow:marshmallow
+mat lab:MATLAB
+Matplotlib
+Maven
+MediaWiki
+medecine:medicine
+medeval,medevil,mideval:medieval
+momento:memento
+MFC
+Microsoft
+mightnt:mightn't
+millenia:millennia
+milennium,millenium:millennium
+miniture:miniature
+miniscule:minuscule
+mischevious,mischevous,mischievious:mischievous
+mispell,misspel:misspell
+Mockito
+Mongo
+mongo db:MongoDB
+MP4
+ms build:MSBuild
+MSDN
+mustnt:mustn't
+MVC
+MVVM
+my sql:MySQL
+Nagios
+name cheap:Namecheap
+NAT
+neccessary,necessery:necessary
+nieghbor:neighbor
+net beans:NetBeans
+networksolutions:Network Solutions
+NFS
+Nginx
+NHibernate
+neice:niece
+NLP
+nodejs:Node.js
+no sql:NoSQL
+noticable:noticeable
+NuGet
+num py:NumPy
+OAuth
+Objective-C
+ocassion,occassion:occasion
+occasionaly,occassionally:occasionally
+occure:occur
+occured:occurred
+occurance,occurence,occurrance:occurrence
+occuring:occurring
+OK
+omision,ommision:omission
+OOP
+open cv:OpenCV
+open gl:OpenGL
+open ldap:OpenLDAP
+open ssl:OpenSSL
+open vpn:OpenVPN
+operater:operator
+orignal:original
+ORM
+OS
+our's:ours
+outragous:outrageous
+PageRank
+Pandas
+paralel,parralel:parallel
+parliment:parliament
+passtime,pasttime:pastime
+pay pal:PayPal
+PC
+PDF
+PDO
+percieve:perceive
+Perl
+perpindicular:perpendicular
+perseverence:perseverance
+persistant:persistent
+personel,personell:personnel
+Phillipines:Philippines
+PhoneGap
+PHP
+phpMyAdmin
+peice:piece
+plagerize:plagiarize
+playright,playwrite:playwright
+pls,plz,plze:please
+Plotly
+Plunker
+PNG
+politican:politician
+POP3
+posession,possesion:possession
+Postgres
+PostgreSQL
+potatos:potatoes
+power shell:PowerShell
+preceed:precede
+prefered:preferred
+prefering:preferring
+presance:presence
+prime faces:PrimeFaces
+privelege,priviledge:privilege
+professer:professor
+programatically:programmatically
+Prolog
+promiss:promise
+pronounciation:pronunciation
+prufe:proof
+protestor:protester
+PS
+publically:publicly
+persue:pursue
+py charm:PyCharm
+py game:Pygame
+py qt:PyQt
+PyQt5
+py spark:PySpark
+Python3
+py torch:PyTorch
+Qt
+quarentine:quarantine
+questionaire,questionnair:questionnaire
+que:queue
+rabbit mq:RabbitMQ
+react native,react-native:React Native
+ReactJS
+readible:readable
+realy:really
+reciept:receipt
+recieve:receive
+reccommend,recomend:recommend
+RecyclerView
+referance,refrence:reference
+refered:referred
+refering:referring
+rehersal:rehearsal
+relevent,revelant:relevant
+religius,religous:religious
+rember,remeber:remember
+repitition:repetition
+resistence:resistance
+responsability:responsibility
+restarant,restaraunt:restaurant
+rime:rhyme
+rythem,rythm:rhythm
+RSpec
+RxJS
+Samba
+SAS
+Scala
+SciPy
+Scrapy
+SCSS
+SDK
+secratary,secretery:secretary
+sieze:seize
+Selenium
+sence:sense
+SEO
+seperate:separate
+seperated:separated
+sargent:sergeant
+SERPs
+serverfault:Server Fault
+shant:shan't
+share point:SharePoint
+shes:she's
+Shopify
+shouldnt:shouldn't
+silver light:Silverlight
+similer:similar
+skilfull:skilful
+SMS
+SMTP
+Solr
+soloution:solution
+speach,speeche:speech
+sprite kit:SpriteKit
+SQL
+sql alchemy:SQLAlchemy
+SQLite
+square space:Squarespace
+SSH
+SSIS
+SSL
+stackexchange:Stack Exchange
+stackoverflow:Stack Overflow
+STL
+strenght:strength
+strech:stretch
+succesful,successfull,sucessful:successful
+succesfully:successfully
+succint:succinct
+supercede:supersede
+supress:suppress
+suprise,surprize:surprise
+SVG
+SVN
+SWF
+swift ui:SwiftUI
+Symfony
+TCP
+tendancy:tendency
+tensor flow:TensorFlow
+TextView
+ty:thank you
+thanx,thx:thanks
+thats:that's
+teh:the
+theres:there's
+therefor:therefore
+theyd:they'd
+theyll:they'll
+theyre:they're
+theyve:they've
+threshhold:threshold
+throught:through
+TLS
+tomatos:tomatoes
+tommorow,tommorrow:tomorrow
+tounge:tongue
+tryed:tried
+truely:truly
+Tucows
+twelth:twelfth
+Twitter
+type script:TypeScript
+tyrany:tyranny
+ubant,ubanto,ubantoo,ubantu,ubantuu,ubnto,ubntoo,ubntu,ubntuu,ubuno,ubunoo,ubunt,ubunto,ubuntoo,ubuntuu,ubunu,ubunut,ubunuto,ubunutoo,ubunutu,ubunutuu,ubunuu,ubutn,ubutno,ubutnoo,ubutnu,ubutnuu,ubuto,ubutoo,ubutu,ubutuu,unbunt,unbunto,unbuntoo,unbuntu,unbuntuu:Ubuntu
+UI
+UICollectionView
+UID
+ui kit:UIKit
+UITableView
+ui view:UIView
+UIViewController
+underate:underrate
+unforseen:unforeseen
+unfortunatly:unfortunately
+Unicode
+Unix
+untill:until
+upto:up to
+udpate:update
+upholstry:upholstery
+URI
+uri's,uris:URIs
+URL
+url's,urls:URLs
+USB
+usible:useable
+usefull:useful
+UWP
+vaccum,vaccuum,vacume:vacuum
+variabilkity,variabilty,variablility,variablity:variability
+varable,varaiable,varaible,variabe,variabel,variabile,variabl,variablle,variabvle,varialbe,varialble,varibable,varibale,varible,varieble,varyable:variable
+varables,varaiables,varaibles,variabels,variabes,variabiles,variablles,variabls,variabvles,varialbes,varialbles,varibables,varibales,varibles,variebles,varyables:variables
+varaint:variant
+varation,variaion,variaiotn,variaton:variation
+varations,variaions,variaiotns,variatiosn,variatons:variations
+variaous:various
+VBA
+vb script,vbscript:VBScript
+vehical:vehicle
+varacity:veracity
+viscious,visious:vicious
+ViewModel
+ViewState
+VPN
+VPS
+Vue
+WCF
+weve:we've
+waether:weather
+webbrowser:web browser
+WebKit
+WebView
+wierd:weird
+welfair,wellfare:welfare
+werent:weren't
+whatll:what'll
+whatre:what're
+whats:what's
+whatve:what've
+wheres:where's
+whereever:wherever
+wether:whether
+wich:which
+whod:who'd
+wholl:who'll
+whove:who've
+wi fi,wifi:WiFi
+Wikipedia
+willfull:willful
+Win32
+Win64
+win 10,win10,windows 10,windows10:Windows 10
+win 11,win11,windows 11,windows11:Windows 11
+win 2000,win2000,windows 2000,windows2000:Windows 2000
+win 7,win7,windows 7,windows7:Windows 7
+win 8,win8,windows 8,windows8:Windows 8
+win 95,win95,window95,windows 95:Windows 95
+win 98,win98,window98,windows 98:Windows 98
+windows me,windowsme:Windows Me
+win nt,windows nt:Windows NT
+win vista,windows vista:Windows Vista
+win xp,windows xp:Windows XP
+win forms:WinForms
+wtih:with
+withold:withhold
+wont:won't
+woo commerce:WooCommerce
+word press:WordPress
+wouldnt:wouldn't
+wpengine:WP Engine
+WPF
+writeing,writting:writing
+WSDL
+Xamarin
+XAML
+XAMPP
+Xcode
+XHTML
+XIB
+XLSX
+XML
+XPath
+XSLT
+YAML
+Yii
+youd:you'd
+youll:you'll
+youre:you're
+youve:you've
+ur:your
+your's:yours
+you tube:YouTube
+Zend
+ZFS
