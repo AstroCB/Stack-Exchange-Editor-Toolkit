@@ -1,4 +1,4 @@
-# Stack Exchange Auto Editor <img alt="Stack Exchange Auto Editor Logo" src="https://i.imgur.com/79qYzkQ.png" style="width:1em;height:1em;vertical-align:sub">
+# Stack Exchange Editor Toolkit <img alt="Stack Exchange Auto Editor Logo" src="https://i.imgur.com/79qYzkQ.png" style="width:1em;height:1em;vertical-align:sub">
 
 ## About
 
